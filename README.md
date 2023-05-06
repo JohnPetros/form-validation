@@ -23,7 +23,7 @@
 
 ## 🖥️ Projeto
 
-Projeto de **Validaddor de formulário**, que é um recurso utilizado para verificar se os dados inseridos pelo usuário estão corretos e preenchidos adequadamente. Esse projeto corresponde ao desafio **Intro component with sign-up form** do [Frontend-mentor](https://www.frontendmentor.io/), com o objetivo de praticar a construção de um formulário com validação no lado do cliente usando JavaScript.
+Projeto de **Validador de formulário**, que é um recurso utilizado para verificar se os dados inseridos pelo usuário estão corretos e preenchidos adequadamente. Esse projeto corresponde ao desafio **Intro component with sign-up form** do [Frontend-mentor](https://www.frontendmentor.io/), que é uma plataforma online que oferece desafios práticos para desenvolvedores aprimorarem suas habilidades em front-end.
 
 ### ⏹️ Demonstração
 
