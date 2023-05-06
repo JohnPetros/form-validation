@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Tela de enviar e-mail</title>
+  </head>
+  <body>
+    <main>
+      <div id="intro">
+        <h1>Envie e-mails para seus amigos</h1>
+        <p>
+          Com a nossa aplicação de envio de emails, você pode enviar mensagens
+          eletrônicas para outras pessoas de forma fácil, rápida e segura.
+        </p>
+      </div>
+
+      <div id="app">
+        <div class="success-message hidden">
+          <p>E-mail enviado com sucesso. <span>Quer enviar mais um?</span></p>
+        </div>
+        <form>
+          <div class="input-wrapper">
+            <input
+              type="text"
+              name="email"
+              class="input"
+              placeholder="E-mail destinatário"
+              autofocus
+            />
+            <i class="ph-fill ph-info hidden"></i>
+          </div>
+
+          <div class="input-wrapper">
+            <input
+              type="text"
+              name="subject"
+              class="input"
+              placeholder="Assunto"
+            />
+            <i class="ph-fill ph-info hidden"></i>
+          </div>
+
+          <div class="input-wrapper">
+            <textarea
+              name="body"
+              class="input"
+              placeholder="Mensagem"
+            ></textarea>
+            <i class="ph-fill ph-info hidden"></i>
+          </div>
+
+          <input type="submit" value="Enviar e-mail" />
+          <footer>
+            <p>
+              Não se preocupe, pois
+              <span class="alert">não enviaremos SPAM</span>.
+            </p>
+          </footer>
+        </form>
+      </div>
+    </main>
+
+    <script src="js/script.js"></script>
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+  </body>
+</html>
